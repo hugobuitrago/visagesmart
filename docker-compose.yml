@@ -1,0 +1,16 @@
+services:
+  visagesmart-db:
+    image: postgres:17-alpine
+    container_name: visagesmart-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: visagesmart_db
+      POSTGRES_USER: visagesmart
+      POSTGRES_PASSWORD: visagesmart123
+    ports:
+      - "5432:5432"
+    volumes:
+      - visagesmart-postgres-data:/var/lib/postgresql/data
+
+volumes:
+  visagesmart-postgres-data:

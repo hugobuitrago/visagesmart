@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/VisageSmart.Api/VisageSmart.Api.csproj" />
+    <Project Path="src/VisageSmart.Application/VisageSmart.Application.csproj" />
+    <Project Path="src/VisageSmart.Domain/VisageSmart.Domain.csproj" />
+    <Project Path="src/VisageSmart.Infrastructure/VisageSmart.Infrastructure.csproj" />
+  </Folder>
+</Solution>
